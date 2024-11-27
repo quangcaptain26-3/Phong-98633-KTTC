@@ -37,7 +37,7 @@ namespace Phong_98633_KTTC
             erpBatLoi.Clear();
             if(txtTenKhoa.Text.Trim() == "")
             {
-                erpBatLoi.SetError(txtTenKhoa, "Không được để trống!");
+                erpBatLoi.SetError(txtTenKhoa, "Không được để trống chỗn này nhé!");
                 flag = false;       
             }
             if(nmpNam.Value > nmpNam.Value)
